@@ -1,0 +1,20 @@
+{
+  "ollama_url": "http://localhost:11434",
+  "ai_model": "phi3",
+  "ai_timeout": 60,
+  "temperature": 0.7,
+  "top_k": 40,
+  "top_p": 0.9,
+  "button_pin": 17,
+  "debounce_time": 0.2,
+  "lcd_address": "0x27",
+  "lcd_cols": 16,
+  "lcd_rows": 2,
+  "audio_dir": "data/audio",
+  "kb_dir": "data/knowledge_base",
+  "log_dir": "logs",
+  "sample_rate": 16000,
+  "record_duration": 10,
+  "kb_search_results": 3,
+  "similarity_threshold": 0.1
+}

@@ -40,9 +40,21 @@ Thumbs.db
 # Project specific
 *.log
 .env
+*.bak
 
 # Exclude draft documents and reports
 *.docx
 *.xlsx
 *.pptx
 *.pdf
+
+# Audio and temporary files
+data/audio/*.wav
+data/audio/*.mp3
+data/audio/*.ogg
+
+# Cache and temporary
+.pytest_cache/
+.coverage
+htmlcov/
+*.tmp
