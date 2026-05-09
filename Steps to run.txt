@@ -1,0 +1,16 @@
+Steps to run tomorrow:
+1. Turn on phone hotspot (Maximize Compatibility ON)
+2. Connect powerbank to Pi, wait 40 seconds
+3. Connect laptop to phone hotspot
+4. Open CMD and type:
+bashssh pi@raspberrypi.local
+Password: Thameem123
+5. Run:
+bashcd farmer_assistant && source venv/bin/activate && python3 main.py
+6. Wait for LCD to say "Press button to ask a question!"
+7. Press button → speak → wait → hear answer!
+
+Sample questions to ask during demo:
+#Question1"My tomato leaves are turning yellow"2"What fertilizer is good for rice?"3"How to control pests in cotton?"4"How to save water in my farm?"5"When should I sow wheat?"
+
+Question 1 is the best to start with — vector DB has perfect data for it and answer is impressive! 🌱
