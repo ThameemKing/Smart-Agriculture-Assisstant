@@ -40,3 +40,9 @@ Thumbs.db
 # Project specific
 *.log
 .env
+
+# Exclude draft documents and reports
+*.docx
+*.xlsx
+*.pptx
+*.pdf
